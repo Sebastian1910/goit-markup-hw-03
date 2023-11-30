@@ -2,9 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   }
-
-/* Reszta kodu */
 
 :root {
   --color-gray:#434455;
@@ -80,6 +80,8 @@ body{
 
 .dark-bg{
   background-color: var(--color-dark-grey);
+  width: 1440px;
+  height: 600px;
   }
 
 .top{
@@ -163,11 +165,11 @@ body{
 .button-two:focus{color: var(--color-white);
    background-color: var(--color-dark-blue);
   }
-.layout{
-  display: flex;
-width: 1440px;
-height: 72px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-}
+
+  h1 {
+    text-align: center;
+    width: 496px;
+  }
+  .box-bg {
+    text-align: center;
+  }
