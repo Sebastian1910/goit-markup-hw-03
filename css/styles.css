@@ -90,6 +90,7 @@ body{
   text-align: center;
   letter-spacing: 0.02em;
   color:var(--color-white);
+ 
   }
 
 .button{
@@ -166,10 +167,69 @@ body{
    background-color: var(--color-dark-blue);
   }
 
-  h1 {
-    text-align: center;
-    width: 496px;
+
+.container{
+width: 1158px;
+text-align: center;
+}
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
-  .box-bg {
-    text-align: center;
-  }
+header{
+  display: flex;
+}
+
+li{
+  display: inline-block;
+}
+.box-tpo-line{
+  height: 72px;
+
+}
+.box-bg{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.box-note{
+  height: 104px;
+}
+.box-what-are-we-doing{
+  height: 412px;
+}
+.box-team{
+  height: 732px;
+}
+.box-footer{
+  height: 312px;
+}
+.box-logo{
+  margin-left: 156px ;
+}
+.box-list, .box-contact{
+  padding-right: 40px;
+}
+.box-top{
+  width: 496px;
+ 
+}
+.box-order-service{
+  padding: 16px 32px;
+    display: flex;
+      justify-content: center;
+}
+.box-notes > li{
+  margin-right: 24px;
+  width: 264px;
+    height: 104px;
+}
