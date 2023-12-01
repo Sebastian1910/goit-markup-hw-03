@@ -5,56 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
- 
-  <!-- Najpierw normalizator -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
-  <!-- Potem Twoje style -->
-  <link rel="stylesheet" href="css\styles.css" />
-<title>Index</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-  <body>
-    <header class="box-tpo-line">
-  <nav >
-      <a href="./index.html" class="lo-go link box-logo logo-style"> Web<span class="span">Studio</span></a>
-    
-        <ul class="list">
-          <li class="box-list"><a href="./index.html" class="link-studio link">Studio</a></li>
-          <li class="box-list"><a href="./portfolio.html" class="link-studio link">Portfolio</a></li>
-          <li class="box-list"><a href="" class="link-studio link">Contacts</a></li>
-        </ul>
-    </nav>
-        <address class="contacts">
-          <ul class="list">
-            <li><a class="contact link box-contact" href="mailto:info@devstudio.com" >info@devstudio.com</a></li>
-            <li><a class="contact link" href="tel:+110001111111" >+11 (000) 111-11-11</a></li>
+    <!-- Najpierw normalizator -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <!-- Potem Twoje style -->
+    <link rel="stylesheet" href="css\styles.css" />
+    <title>Index</title>
+  </head>
+  <body class="container">
+    <header>
+      <div class="box-flex">
+        <nav class="">
+          <a href="./index.html" class="lo-go link logo-style box-logo">
+            Web<span class="span">Studio</span></a
+          >
+          <ul class="list box-menu">
+            <li class="box-nav">
+              <a href="./index.html" class="link-studio link">Studio</a>
+            </li>
+            <li class="box-nav">
+              <a href="./portfolio.html" class="link-studio link">Portfolio</a>
+            </li>
+            <li class="box-nav">
+              <a href="" class="link-studio link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="list box-flex">
+            <li class="box-nav">
+              <a class="contact link box-logo" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
           </ul>
         </address>
-    
+      </div>
     </header>
 
     <main>
-          <section class="dark-bg container box-bg" >
-                  <h1 class="top box-top">Effective Solutions for Your Business</h1>
-                     <button class="button box-order-service" type="button">Order Service</button>
-          </section>
+      <section class="dark-bg box-flex">
+        <h1 class="top box-top">Effective Solutions for Your Business</h1>
+        <button class="button box-order-service" type="button">
+          Order Service
+        </button>
+      </section>
 
-          <section class="container box-note">
-                <h2 class="visually-hidden">Znacznik do ukrycia!!!!</h2>
-                <ul class="list box-notes">
-                 <li>
-                  <h3 class="list-item-header">Strategy</h3>
-                    <p class="class-p">
-                      Our goal is to identify the business problem to walk away with the
-                      perfect and creative solution.
-                    </p>
-                 </li>
+      <section class="">
+        <h2 class="visually-hidden">Znacznik do ukrycia!!!!</h2>
+        <ul class="list">
+          <li>
+            <h3 class="list-item-header">Strategy</h3>
+            <p class="class-p">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
           <li>
             <h3 class="list-item-header">Punctuality</h3>
             <p class="class-p">
@@ -77,9 +97,9 @@
             </p>
           </li>
         </ul>
-          </section>
+      </section>
 
-          <section class="container box-what-are-we-doing">
+      <section class="">
         <h2 class="class-h-two">What are we doing</h2>
         <ul class="list">
           <li>
@@ -107,60 +127,64 @@
             />
           </li>
         </ul>
-          </section>
+      </section>
 
-          <section class="light-bg container box-team">
-               <h2 class="class-h-two">Our Team</h2>
-               <ul class="list">
-                  <li class="card-content">
-                      <img
-                          src="./images/zd4.jpg"
-                          alt="Młody facet z brodą"
-                          width="264"
-                          height="260"
-                         />
-            <h3 class="list-item-header">Mark Guerrero</h3>
-            <p class="class-p">Product Designer</p>
-          </li>
+      <section class="light-bg container box-team">
+        <h2 class="class-h-two">Our Team</h2>
+        <div>
+          <ul class="list">
+            <li class="card-content">
+              <img
+                src="./images/zd4.jpg"
+                alt="Młody facet z brodą"
+                width="264"
+                height="260"
+              />
+              <h3 class="list-item-header">Mark Guerrero</h3>
+              <p class="class-p">Product Designer</p>
+            </li>
 
-          <li class="card-content">
-            <img
-              src="./images/zd5.jpg"
-              alt="Młody facet z brodą"
-              width="264"
-              height="260"
-            />
-            <h3 class="list-item-header">Tom Ford</h3>
-            <p class="class-p">Frontend Developer</p>
-          </li>
+            <li class="">
+              <img
+                src="./images/zd5.jpg"
+                alt="Młody facet z brodą"
+                width="264"
+                height="260"
+              />
+              <h3 class="list-item-header">Tom Ford</h3>
+              <p class="class-p">Frontend Developer</p>
+            </li>
 
-          <li class="card-content">
-            <img
-              src="./images/zd6.jpg"
-              alt="MŁoda kobieta"
-              width="264"
-              height="260"
-            />
-            <h3 class="list-item-header">Camila Garcia</h3>
-            <p class="class-p">Marketing</p>
-          </li>
+            <li class="">
+              <img
+                src="./images/zd6.jpg"
+                alt="MŁoda kobieta"
+                width="264"
+                height="260"
+              />
+              <h3 class="list-item-header">Camila Garcia</h3>
+              <p class="class-p">Marketing</p>
+            </li>
 
-          <li class="card-content">
-            <img
-              src="./images/zd7.jpg"
-              alt="Młody facet z brodą"
-              width="264"
-              height="260"
-            />
-            <h3 class="list-item-header">Daniel Wilson</h3>
-            <p class="class-p">UI Designer</p>
-          </li>
-        </ul>
-          </section>
+            <li class="">
+              <img
+                src="./images/zd7.jpg"
+                alt="Młody facet z brodą"
+                width="264"
+                height="260"
+              />
+              <h3 class="list-item-header">Daniel Wilson</h3>
+              <p class="class-p">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
-    <footer class="dark-bg box-footer">
-      <a href="./index.html" class="lo-go link"> Web<span class="f-studio">Studio</span></a>
+    <footer class="dark-bg">
+      <a href="./index.html" class="lo-go link">
+        Web<span class="f-studio">Studio</span></a
+      >
       <p class="logo">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
