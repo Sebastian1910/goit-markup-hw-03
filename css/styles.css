@@ -177,7 +177,7 @@ body {
 }
 
 .container {
-  max-width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   padding-left: 15px;
@@ -221,8 +221,7 @@ ol {
   gap: 40px;
 }
 .box-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24px;
 }
 .box-address {
   display: flex;
