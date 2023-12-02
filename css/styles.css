@@ -211,6 +211,10 @@ ol {
   align-items: center;
 }
 
+.box-address {
+  margin-left: auto;
+}
+
 .box-logo {
   margin-right: 76px;
 }
