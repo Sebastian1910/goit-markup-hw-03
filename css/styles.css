@@ -227,9 +227,12 @@ ol {
   display: flex;
   gap: 40px;
 }
+.box-h-one {
+  max-width: 496px;
+}
 
 .box-top {
-  max-width: 496px;
+  display: flex;
 }
 .box-order-service {
   display: block;
