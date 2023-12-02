@@ -181,6 +181,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -316,7 +317,8 @@ ol {
   margin-bottom: 72px;
 }
 .box-center {
-  justify-content: center;
+  display: grid;
+  justify-items: center;
 }
 .box-portfolio-item {
   padding-top: 12px;
