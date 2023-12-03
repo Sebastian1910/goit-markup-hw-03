@@ -54,8 +54,7 @@ body {
 
 .link-studio:hover,
 .link-studio:active,
-.link-studio:focus,
-.link-studio:visited {
+.link-studio:focus {
   color: var(--color-dark-blue);
 }
 
@@ -200,6 +199,7 @@ ol {
 }
 .border-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
 }
 
 .box-top {
@@ -232,6 +232,7 @@ ol {
 }
 .box-h-one {
   max-width: 496px;
+  padding: 48px 0;
 }
 
 .box-top {
@@ -288,9 +289,13 @@ ol {
 .box-link-bg {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .box-div-bg {
   padding: 32px 0px;
+  background-color: #f4f4fd;
 }
 .box-name-bg {
   text-align: center;
